@@ -274,6 +274,7 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
 
 .dibujo1, .dibujo2, .dibujo3, .dibujo4, .dibujo5, .dibujo6, .dibujo7, .dibujo8, .dibujo9, .dibujo10, .dibujo11, .dibujo12, .dibujo13, .dibujo14, .dibujo15 {
   justify-content: space-around;
+  padding-top: 100px;
   width: 100%;
   height: auto;
   size: 100%;
@@ -282,5 +283,5 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
   margin:2px 0px 0px 2px;}
 
 .dibujo1:hover, .dibujo2:hover, .dibujo3:hover, .dibujo4:hover, .dibujo5:hover, .dibujo6:hover, .dibujo7:hover, .dibujo8:hover, .dibujo9:hover, .dibujo10:hover, .dibujo11:hover, .dibujo12:hover, .dibujo13:hover, .dibujo14:hover, .dibujo15:hover {
-  filter: saturate(250%)
+  filter: saturate(250%);
 }
