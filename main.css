@@ -251,3 +251,36 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
     bottom:0;
   }
 }
+
+@media (max-width: 423x) {
+  .carre_couleur{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;}}
+
+  @media (max-width: 423x) {
+  main {
+    padding-top:900px;
+    top:0;left:0;
+    right:0;
+    bottom:0;
+  }
+}
+
+
+/*css de galeria de diseño*/
+
+.dibujo1, .dibujo2, .dibujo3, .dibujo4, .dibujo5, .dibujo6, .dibujo7, .dibujo8, .dibujo9, .dibujo10, .dibujo11, .dibujo12, .dibujo13, .dibujo14, .dibujo15 {
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  size: 100%;
+  align-items: center;
+  filter: saturate(0%);
+  margin:2px 0px 0px 2px;}
+
+.dibujo1:hover, .dibujo2:hover, .dibujo3:hover, .dibujo4:hover, .dibujo5:hover, .dibujo6:hover, .dibujo7:hover, .dibujo8:hover, .dibujo9:hover, .dibujo10:hover, .dibujo11:hover, .dibujo12:hover, .dibujo13:hover, .dibujo14:hover, .dibujo15:hover {
+  filter: saturate(250%)
+}
