@@ -231,12 +231,22 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
     fill: rgba(0, 0, 0, 0.1);
   }
 
-  
   footer {
-      position:fixed;
-      /*padding-bottom: 5px;bottom:0;left:0; right:0;top:0;*/
-      
+    position:relative;
   }
+
+  @media (max-width: 636px) {
+    footer {
+      padding-top: 2150px;
+    }}
+
+  @media (max-width: 424px) {
+    footer {
+      padding-top: 2400px;
+    }}
+
+  
+  
   h4 {
     font-family:'Roboto';
     color:white;
