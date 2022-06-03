@@ -143,6 +143,7 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
   }
   
   text {
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
     text-anchor: middle;
@@ -165,12 +166,14 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
   }
   
   .items {
+    font-family: "Source Sans Pro", sans-serif;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
   
   .item {
+    font-family: "Source Sans Pro", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,15 +234,19 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
     fill: rgba(0, 0, 0, 0.1);
   }
 
-  /* h5 es el footer*/
+  /* h3 es el footer*/
 
-  h5 {
+  h3 {
+    /*font-family: "Source Sans Pro", sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family:'Roboto';
     text-align: center;
+    text-decoration: color#a945c7;
   }
   
   h4 {
     font-family:'Roboto';
-    color:white;
+    color:white;  
     background-color:#1a1a1a;
   }
 
