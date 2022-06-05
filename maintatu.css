@@ -148,3 +148,16 @@ body{
 .tatuajes {
   margin-top: 450px;
 }
+
+@media (max-width: 500px) {
+  .tatuajes {
+    margin-top: 300px;
+       
+  }
+}
+@media (max-width: 500px) {
+  #carousel {
+    margin-top: -300px;
+       
+  }
+}
