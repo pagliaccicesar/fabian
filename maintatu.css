@@ -1,16 +1,8 @@
-body{
-  background: #2f3238;
-}
-
 
 body{
-  /*margin: 0;
-   padding: 0;
-   /*display: flex;
-   justify-content: center;
-   align-items: center;*/
-   
-   height: 12vh;
+  
+   height: 10vh;
+
    background: #2f3238;
    font-family:consolas;
 }
@@ -107,12 +99,15 @@ body{
   display: block;
   position: absolute;
   width: 90%;
-  height: 78%;
-  left: 10px;
-  top: 10px;
-  background: black;
+  height: 50%;
+  left: 20px;
+  top: 30px;
+  background: #4C4C4C;
+  
+  /*background: black;*/
   overflow: hidden;
-  border: solid 5px black;
+  /*border: solid 5px black;*/
+  border: solid 5px #4C4C4C;
 }
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
 #carousel figure:nth-child(2){ transform: rotateY(40deg) translateZ(288px);}
