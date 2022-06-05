@@ -137,3 +137,14 @@ body{
       transform: rotateY(360deg);
   }
 }
+
+/* pasamos a galeria de tatuajes*/
+
+
+#carousel {
+  margin-top: -450px;
+}
+
+.tatuajes {
+  margin-top: 450px;
+}
