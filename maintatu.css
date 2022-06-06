@@ -1,10 +1,14 @@
 
 body{
-  
-   height: 10vh;
-
-   background: #2f3238;
-   font-family:consolas;
+  margin: 0;
+     padding: 0;
+     /*display: flex;
+     justify-content: center;
+     align-items: center;*/
+     
+     height: 12vh;
+     background: #2f3238;
+     font-family:consolas;
 }
 
 
@@ -102,12 +106,13 @@ body{
   height: 50%;
   left: 20px;
   top: 30px;
-  background: #4C4C4C;
+  background: #fdb707;
+ /* background: #4C4C4C;*/
   
   /*background: black;*/
   overflow: hidden;
   /*border: solid 5px black;*/
-  border: solid 5px #4C4C4C;
+  border: solid 5px #fdb707;
 }
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
 #carousel figure:nth-child(2){ transform: rotateY(40deg) translateZ(288px);}
@@ -159,5 +164,141 @@ body{
   #carousel {
     margin-top: -430px;
        
+  }
+}
+
+body {
+     background-color: #4C4C4C;
+   }
+   
+   .container {
+     /*position: absolute;*/
+     font-size: 0;
+     width: 100%;
+     margin-top: 50px;
+     text-align: center;
+   }
+   
+   .card {
+     overflow: hidden;
+     position: relative;
+     display: inline-block;
+     height: 400px;
+     width: 600px;
+     /*
+     Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
+     */
+   }
+   
+   .img-container {
+     transition: transform .1s ease;
+   }
+   
+   .img-container:hover {
+     transform: scale(1.1);
+     /*
+     Change the scale value as much as you want to change the amount of zoom on hover.
+     */
+   }
+   
+   .card img {
+     opacity: .5;
+     transform: translate(0,0);
+     /*
+     Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+     */
+     transition: opacity .25s ease-in-out;
+   }
+   
+   .card img:hover {
+     opacity: 1;
+   }
+ 
+   @media (max-width: 800px) {
+       .img {
+         
+         width: 100%;
+         height: auto;
+               
+         
+       }
+   }
+ 
+   @media (max-width: 800px) {
+     .card {
+       overflow: hidden;
+       position: relative;
+       display: inline-block;
+       height: 200px;
+       width: 300px; 
+     }
+ }
+
+ /** probando sacar de de maninfotos , css de galeria def otos*/
+
+ body {
+  background-color: #fdb707;
+}
+
+.container {
+  /*position: absolute;*/
+  font-size: 0;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  height: 400px;
+  width: 600px;
+  /*
+  Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
+  */
+}
+
+.img-container {
+  transition: transform .1s ease;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+  /*
+  Change the scale value as much as you want to change the amount of zoom on hover.
+  */
+}
+
+.card img {
+  opacity: .5;
+  transform: translate(0,0);
+  /*
+  Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+  */
+  transition: opacity .25s ease-in-out;
+}
+
+.card img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .img {
+      
+      width: 100%;
+      height: auto;
+            
+      
+    }
+}
+
+@media (max-width: 800px) {
+  .card {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 300px; 
   }
 }
