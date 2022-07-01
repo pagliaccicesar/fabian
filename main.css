@@ -66,6 +66,9 @@
      font-weight: 400;
      font-family:'Roboto';
    }
+   .retract {
+    border-radius: 10%;
+   }
 
 /* css de la galeria*/
 
@@ -236,12 +239,10 @@ main{position:absolute;padding-top:300px;top:0;left:0; right:0;bottom:0;
 
   /* h3 es el footer*/
 
-  h3 {
-    /*font-family: "Source Sans Pro", sans-serif;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-    font-family:'Roboto';
+  h3 {    
+    font-family:'Finger Paint';
     text-align: center;
-    text-decoration: color#a945c7;
+    color: #2ecc71;   
   }
   
   h4 {
